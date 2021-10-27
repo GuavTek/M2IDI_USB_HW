@@ -31,9 +31,9 @@ jobs:
       # optional - prefix to output defined in config
         dir: Core/outputs
       # optional - schematic file
-        schema: '*USB.sch'
+        schema: 'Core/*USB.sch'
       # optional - PCB design file
-        board: '*USB.kicad_pcb'
+        board: 'Core/*USB.kicad_pcb'
       # optional - verbose output info
         verbose: 0
     - uses: nerdyscout/kicad-exports@v2.3.1
@@ -43,9 +43,9 @@ jobs:
       # optional - prefix to output defined in config
         dir: Front/outputs
       # optional - schematic file
-        schema: '*Front.sch'
+        schema: 'Front/*Front.sch'
       # optional - PCB design file
-        board: '*Front.kicad_pcb'
+        board: 'Front/*Front.kicad_pcb'
       # optional - verbose output info
         verbose: 0
     - name: upload results
