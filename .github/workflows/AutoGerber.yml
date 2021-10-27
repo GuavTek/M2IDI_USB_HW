@@ -20,7 +20,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  example:
+  Production_Files:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -51,5 +51,7 @@ jobs:
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
-        name: docs
-        path: docs
+        name: ProdFiles
+        path: |
+          Core/outputs/
+          Front/outputs/
