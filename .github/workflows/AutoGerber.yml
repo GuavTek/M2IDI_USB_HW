@@ -31,9 +31,9 @@ jobs:
       # optional - prefix to output defined in config
         dir: Core/outputs
       # optional - schematic file
-        schema: 'Core/MIDIBUS_USB.sch'
+        schema: 'Core/MIDI_USB.sch'
       # optional - PCB design file
-        board: 'Core/MIDIBUS_USB.kicad_pcb'
+        board: 'Core/MIDI_USB.kicad_pcb'
       # optional - verbose output info
         verbose: 0
     - uses: nerdyscout/kicad-exports@v2.3.1
@@ -43,9 +43,9 @@ jobs:
       # optional - prefix to output defined in config
         dir: Front/outputs
       # optional - schematic file
-        schema: 'Front/MIDIBUS_USB_Front.sch'
+        schema: 'Front/MIDI_USB_Front.sch'
       # optional - PCB design file
-        board: 'Front/MIDIBUS_USB_Front.kicad_pcb'
+        board: 'Front/MIDI_USB_Front.kicad_pcb'
       # optional - verbose output info
         verbose: 0
     - name: upload results
