@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CustomLib:PCM1808 U?
+L Custom_Sym:PCM1808 U?
 U 1 1 60A61853
 P 5550 2750
 AR Path="/60A61853" Ref="U?"  Part="1" 
@@ -748,7 +748,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 1100 9900 1100
 $Comp
-L CustomLib:ES9023P U6
+L Custom_Sym:ES9023P U6
 U 1 1 609A13DB
 P 3500 5900
 F 0 "U6" H 3500 6781 50  0000 C CNN

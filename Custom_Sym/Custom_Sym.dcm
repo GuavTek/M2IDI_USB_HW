@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ES9023P
+D Stereo DAC 24-bit 96KHz
+$ENDCMP
+#
+$CMP MIC2005
+D USB power switch, current limited
+$ENDCMP
+#
+$CMP PCM1808
+D Audio ADC 24-bit 96kHz
+K ADC 24-bit 96kHz 48kHz i2s
+F https://www.ti.com/lit/ds/symlink/pcm1808.pdf
+$ENDCMP
+#
+#End Doc Library
