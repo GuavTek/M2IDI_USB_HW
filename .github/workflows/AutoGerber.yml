@@ -8,12 +8,12 @@ on:
   push:
     branches: [ main ]
     paths:
-    - '**.sch'
+    - '**.kicad_sch'
     - '**.kicad_pcb'
   pull_request:
     branches: [ main ]
     paths:
-    - '**.sch'
+    - '**.kicad_sch'
     - '**.kicad_pcb'
 
   # Allows you to run this workflow manually from the Actions tab
@@ -24,26 +24,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: nerdyscout/kicad-exports@v2.3.1
+    - uses: INTI-CMNB/KiBot@v2_k7
       with:
       # Required - kibot config file
         config: JLC.kibot.yaml
       # optional - prefix to output defined in config
         dir: Core/outputs
       # optional - schematic file
-        schema: 'Core/MIDI_USB.sch'
+        schema: 'Core/MIDI_USB.kicad_sch'
       # optional - PCB design file
         board: 'Core/MIDI_USB.kicad_pcb'
       # optional - verbose output info
         verbose: 0
-    - uses: nerdyscout/kicad-exports@v2.3.1
+    - uses: INTI-CMNB/KiBot@v2_k7
       with:
       # Required - kibot config file
         config: JLC.kibot.yaml
       # optional - prefix to output defined in config
         dir: Front/outputs
       # optional - schematic file
-        schema: 'Front/MIDI_USB_Front.sch'
+        schema: 'Front/MIDI_USB_Front.kicad_sch'
       # optional - PCB design file
         board: 'Front/MIDI_USB_Front.kicad_pcb'
       # optional - verbose output info
