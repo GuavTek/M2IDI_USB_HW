@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Custom_Sym)(type Legacy)(uri ${KIPRJMOD}/../Custom_Sym/Custom_Sym.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "Custom_Sym")(type "KiCad")(uri "${KIPRJMOD}/../Custom_Sym/Custom_Sym.kicad_sym")(options "")(descr ""))
 )

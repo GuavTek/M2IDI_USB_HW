@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -163,7 +163,7 @@ U 1 1 609626F2
 P 7300 2700
 F 0 "J5" H 6870 2639 50  0000 R CNN
 F 1 "USB_C_Receptacle_USB2.0" H 6870 2548 50  0000 R CNN
-F 2 "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11" H 7450 2700 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 7450 2700 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7450 2700 50  0001 C CNN
 	1    7300 2700
 	-1   0    0    -1  
