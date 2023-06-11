@@ -369,6 +369,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 73.66 59.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d517efb1-7142-422a-b530-416979efdd83)
+    (property "Reference" "H4" (at 76.2 58.5216 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Tactile hole" (at 76.2 60.833 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Custom_FP:TactileHole" (at 73.66 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 73.66 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "MIDI_USB_Front"
+        (path "/348a85f4-2614-491e-8b4b-55e283f94479"
+          (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
