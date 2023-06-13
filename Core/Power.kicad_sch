@@ -2682,7 +2682,7 @@
     (property "Reference" "R29" (at 119.888 43.1713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1M" (at 119.888 45.0923 0)
+    (property "Value" "100k" (at 119.888 45.0923 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 116.332 43.815 90)
