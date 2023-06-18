@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "M2IDI - USB CORE")
+    (date "2023-06-18")
+    (rev "2.0")
+    (company "GuavTek")
+  )
+
   (lib_symbols
     (symbol "Connector:USB_C_Receptacle_USB2.0" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -10.16 19.05 0)
