@@ -968,6 +968,12 @@
     (uuid ff74ed84-57b3-4397-b2ad-ac18a7f86671)
   )
 
+  (text "This resistor should \nbe 0,5% tolerance,\nbut 1% is fine"
+    (at 104.14 118.11 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f7431f65-1bc0-467d-a6bc-cd1282d864e8)
+  )
+
   (global_label "USB_ID" (shape output) (at 73.025 91.44 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2bf7b909-5d11-4cb5-ae8b-6004c9b34b95)
