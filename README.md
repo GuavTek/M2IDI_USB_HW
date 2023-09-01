@@ -4,7 +4,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/25232) to see renders
 
 <p>
 The code for this module can be found on  
-<a href="https://github.com/GuavTek/M2IDI_Tangle">
+<a href="https://github.com/GuavTek/M2IDI_USB">
 			  GitHub
 		  </a>
 </p>
