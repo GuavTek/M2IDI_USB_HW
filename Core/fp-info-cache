@@ -1,4 +1,4 @@
-21983942233934859
+21969058203354441
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51933,75 +51933,12 @@ CustomLib
 14
 11
 Custom_FP
-Crystal_2pin_2.0x2.5mm
-
-
-0
-2
-2
-Custom_FP
-Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering
-SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, hand-soldering, 3.2x2.5mm^2 package
-SMD SMT crystal hand-soldering
-0
-4
-4
-Custom_FP
-Header_2x8_Shrouded_SMD
-http://www.farnell.com/datasheets/1520732.pdf
-connector multicomp MC9A MC9A12
-0
-16
-16
-Custom_FP
-MicroMatch_04_Angled
-
-
-0
-4
-4
-Custom_FP
 STX3100_Angled_3.5mm
 
 
 0
 5
 5
-Custom_FP
-SlideDPDT_JS202011
-
-
-0
-6
-6
-Custom_FP
-TactileHole
-
-
-0
-0
-0
-Custom_FP
-USB_C_Hole
-
-
-0
-0
-0
-Custom_FP
-USB_C_Receptacle_GCT_USB4085_Slimmed
-USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf
-USB Type-C Receptacle Through-hole Right angle
-0
-20
-17
-Custom_FP
-Wide_M3
-
-
-0
-1
-1
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
