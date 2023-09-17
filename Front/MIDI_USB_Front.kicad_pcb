@@ -271,13 +271,13 @@
     (attr through_hole)
     (fp_text reference "H4" (at 0 3.175) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 272ceaac-3703-46f9-a71f-a3200e217f42)
+      (tstamp 5b682339-e1cb-4561-9d2e-4e246d869933)
     )
     (fp_text value "Tactile hole" (at 0 1.905) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 0328cdaf-dcba-4652-ace4-2cc32c7bfa45)
+      (tstamp 36135d6a-6e4c-4f19-a9f6-5cbc0533ceb3)
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers "F&B.Cu" "*.Mask") (tstamp 27434852-dfd8-4eef-95ea-4443f8a8520a))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.7 3.7) (drill 3.7) (layers "F&B.Cu" "*.Mask") (tstamp 9e3cddaa-2789-4234-9f3a-e858bf90ea24))
   )
 
   (gr_poly
